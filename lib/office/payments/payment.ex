@@ -4,7 +4,7 @@ defmodule Office.Payments.Payment do
   alias Office.Payments.Payment
 
 
-  schema "payments_payments" do
+  schema "payments" do
     field :amount, :decimal
     field :paid, :boolean, default: false
 

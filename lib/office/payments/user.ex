@@ -4,7 +4,7 @@ defmodule Office.Payments.User do
   alias Office.Payments.User
 
 
-  schema "payments_users" do
+  schema "users" do
     field :payment_id, :id
 
     field :billing_address, :string

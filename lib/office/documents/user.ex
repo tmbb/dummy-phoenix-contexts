@@ -4,7 +4,7 @@ defmodule Office.Documents.User do
   alias Office.Documents.User
 
 
-  schema "documents_users" do
+  schema "users" do
     field :email, :string
     field :name, :string
     field :document_id, :id

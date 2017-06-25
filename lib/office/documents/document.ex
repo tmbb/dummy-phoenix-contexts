@@ -4,7 +4,7 @@ defmodule Office.Documents.Document do
   alias Office.Documents.Document
 
 
-  schema "documents_documents" do
+  schema "documents" do
     field :body, :string
     field :title, :string
     field :owner_id, :id
